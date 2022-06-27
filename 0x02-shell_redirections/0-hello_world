@@ -1,2 +1,2 @@
 #!/bin/bash
-first line of every script
+echo Hello, World
