@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#A script to display "Best School" X10
+for ((o=1; o<=10; o==))
+do
+echo "Best School"
+done
