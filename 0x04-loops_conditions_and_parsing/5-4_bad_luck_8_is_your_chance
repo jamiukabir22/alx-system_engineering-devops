@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #Displays bad luck for 4th loop iteration, display good luck for 8th iteration,other iteration displays best school
-i = 0
-while [$i -lt 10]
+i=0
+while [ $i -lt 10 ]
 do
-if [$i = 3];then
+if [ $i = 3 ];then
 echo "Bad Luck"
-elif  [$i = 7]; then
+elif  [ $i = 7 ]; then
 echo "Good Luck"
 else
 echo "Best School"

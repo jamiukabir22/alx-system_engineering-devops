@@ -4,21 +4,22 @@
 #If file exist , prints:
 #if file is empty: school file is empty else if regular: school is a empty file
 #else if is regular: school is a regular file else nothing
-if [-e school];
+if [ ! -e school ];
 echo "school file exists"
-if [ ! -s school];
+if [ ! -s school ];
 then
 echo "school file is empty"
-if [-f school];
+fi
+if [ -f school ];
 then
 echo "school is a regular file"
-fi
 else
 echo "school file is not empty"
-if [0f school];
+fi
+if [ -f school ];
 then
 echo "school is a regular file"
-fi
 else
 echo "school file does not exist"
+then
 fi

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #Script displaying "Best School" X10
 i=0
-until [$i -gt 9]
+until [ $i -gt 9 ] 
 do
 echo "Best SChool"
-((i=i+1))
+((i=+1))
 done
