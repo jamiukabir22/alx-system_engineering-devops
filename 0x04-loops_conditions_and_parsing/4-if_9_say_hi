@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#Script displaying Best School X10, display best school and hi on a nwe in 9th iteration
+i=0
+while [ $i -lt 10]
+do
+if  [$i = 9]; then
+echo "HI"
+fi 
+echo "Best School"
+((i = i + 1))
+done
