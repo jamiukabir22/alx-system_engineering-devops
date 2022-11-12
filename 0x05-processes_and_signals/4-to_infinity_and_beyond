@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#displays "To infinity and beyond"
+#added sleep 2 between eact iteration
+count=0
+while [ $count -ge 0 ];
+do
+echo "To infinity and beyond"
+sleep 2
+done
