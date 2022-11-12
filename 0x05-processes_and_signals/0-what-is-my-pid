@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Scriot to display it's PIS
+echo $$
