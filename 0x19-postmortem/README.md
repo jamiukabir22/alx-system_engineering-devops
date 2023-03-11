@@ -1,0 +1,1 @@
+On March 9, 2023, our e-commerce website experienced a major outage for approximately six hours. During this time, users were unable to access our website, make purchases, or even view products. This outage occurred during peak business hours, causing significant financial losses and impacting customer satisfaction.
