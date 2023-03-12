@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#gets Apache to run on the container and returns pasge
+
+sudo /etc/init.d/apache2 restart
